@@ -61,4 +61,4 @@ def get_weather(city):
         return abort(404, "City not found")
 
 
-app.run()
+app.run(port=10000)
