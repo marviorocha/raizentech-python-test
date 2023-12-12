@@ -17,13 +17,13 @@ This project was deployed on [backend-test-raizentech.onrender.com](https://back
 
 ### How to generate a weather for next 5 days:
 
-Access the url in below in type your city name, ex: São Paulo
+Access the URL in below in type your city name, ex: São Paulo
 
 ```sh
 https://backend-test-raizentech.onrender.com/api/v1/weather/<city-name>
 ```
 
-See others data and database thought the postman:
+See other data and database by the postman:
 
 ```sh
 https://www.postman.com/api-book-marvio/workspace/razen-tech-api/
