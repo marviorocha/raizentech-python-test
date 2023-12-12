@@ -8,6 +8,7 @@ colorama==0.4.6 ; python_version >= "3.12" and python_version < "4.0" and platfo
 deprecation==2.1.0 ; python_version >= "3.12" and python_version < "4.0"
 flask==3.0.0 ; python_version >= "3.12" and python_version < "4.0"
 gotrue==2.1.0 ; python_version >= "3.12" and python_version < "4.0"
+gunicorn==21.2.0 ; python_version >= "3.12" and python_version < "4.0"
 h11==0.14.0 ; python_version >= "3.12" and python_version < "4.0"
 httpcore==0.17.3 ; python_version >= "3.12" and python_version < "4.0"
 httpx==0.24.1 ; python_version >= "3.12" and python_version < "4.0"
