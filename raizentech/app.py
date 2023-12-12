@@ -45,6 +45,7 @@ def get_weather_data(city):
 @app.route("/api/v1/weather/<string:city>")
 def get_weather(city):
     weather_data = get_weather_data(city)
+
     if weather_data:
         for forecast in weather_data["forecasts"]:
             data = {
@@ -60,4 +61,4 @@ def get_weather(city):
         return abort(404, "City not found")
 
 
-app.run(debug=True)
+app.run()
