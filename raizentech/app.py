@@ -59,6 +59,3 @@ def get_weather(city):
         return jsonify({"city": city, "weather_data": weather_data})
     else:
         return abort(404, "City not found")
-
-
-app.run(port=10000)
